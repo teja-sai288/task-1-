@@ -1,0 +1,51 @@
+# Nmap 7.97 scan initiated Mon Aug  4 19:06:35 2025 as: nmap -sS -oN scan.txt 192.168.1.0/24
+Nmap scan report for csp3.zte.com.cn (192.168.1.1)
+Host is up (0.056s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT    STATE SERVICE
+23/tcp  open  telnet
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+MAC Address: 30:4F:75:57:98:64 (DZS)
+
+Nmap scan report for android-b3bc40bdaf673134 (192.168.1.3)
+Host is up (0.083s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE
+5555/tcp open  freeciv
+MAC Address: C2:46:4C:F7:92:1F (Unknown)
+
+Nmap scan report for 192.168.1.5 (192.168.1.5)
+Host is up (0.12s latency).
+All 1000 scanned ports on 192.168.1.5 (192.168.1.5) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: AA:EE:C9:1C:C5:1A (Unknown)
+
+Nmap scan report for laptop-st6ubcnb (192.168.1.9)
+Host is up (0.0010s latency).
+Not shown: 979 closed tcp ports (reset)
+PORT     STATE    SERVICE
+25/tcp   filtered smtp
+110/tcp  filtered pop3
+119/tcp  filtered nntp
+125/tcp  filtered locus-map
+135/tcp  open     msrpc
+139/tcp  open     netbios-ssn
+143/tcp  filtered imap
+445/tcp  open     microsoft-ds
+465/tcp  filtered smtps
+548/tcp  filtered afp
+563/tcp  filtered snews
+587/tcp  filtered submission
+800/tcp  filtered mdbs_daemon
+902/tcp  open     iss-realsecure
+903/tcp  filtered iss-console-mgr
+912/tcp  open     apex-mesh
+993/tcp  filtered imaps
+995/tcp  filtered pop3s
+1025/tcp filtered NFS-or-IIS
+1122/tcp filtered availant-mgr
+1433/tcp filtered ms-sql-s
+
+# Nmap done at Mon Aug  4 19:09:03 2025 -- 256 IP addresses (4 hosts up) scanned in 147.76 seconds
